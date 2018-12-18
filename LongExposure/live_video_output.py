@@ -53,8 +53,8 @@ while True:
 
 	key = cv2.waitKey(1) & 0xFF
 
-	# if the `q` key was pressed, break from the loop
-	if key == ord("q"):
+	# if the `ESC` key was pressed, break from the loop
+	if key == 27:
 		break
 
 	# update the FPS counter
